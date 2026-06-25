@@ -1,7 +1,56 @@
-¿Por qué es importante que los proyectos de software mantengan un registro de cambios usando herramientas como Git?
+╔═══════════════════════════════════════════════════════════════╗
+║           REFLEXIÓN - TAREA SEMANA 3                          ║
+║           Programadores Por La Paz                            ║
+║           Git y Control de Versiones                          ║
+╚═══════════════════════════════════════════════════════════════╝
 
-Es fundamental que los proyectos de software utilicen herramientas como Git porque nos permiten tener un historial completo y organizado de todo lo que se ha hecho en el proyecto. Sin un control de versiones, sería muy difícil saber qué cambios se realizaron, cuándo se hicieron y quién los hizo, especialmente cuando se trabaja en equipo.
+┌───────────────────────────────────────────────────────────────┐
+│  PREGUNTA:                                                    │
+│  ¿Por qué es importante que los proyectos de software         │
+│  mantengan un registro de cambios usando herramientas         │
+│  como Git?                                                    │
+└───────────────────────────────────────────────────────────────┘
 
-Git nos da la posibilidad de volver a versiones anteriores del proyecto si algo sale mal, lo cual es crucial cuando se cometen errores o se necesitan recuperar funcionalidades que funcionaban antes. También facilita la colaboración entre desarrolladores, ya que cada uno puede trabajar en diferentes partes del proyecto sin conflictos, y luego unir los cambios de manera ordenada.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📝 MI REFLEXIÓN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Además, mantener un registro de cambios brinda trazabilidad, que es esencial para la calidad del software. Permite auditar el proceso de desarrollo, entender la evolución del proyecto y tomar decisiones informadas sobre mejoras o correcciones. En resumen, Git es una herramienta indispensable para cualquier proyecto de software que quiera ser profesional, organizado y sostenible a largo plazo.
+Es fundamental que los proyectos de software utilicen herramientas
+como Git porque nos permiten tener un historial completo y
+organizado de todo lo que se ha hecho en el proyecto. Sin un
+control de versiones, sería muy difícil saber qué cambios se
+realizaron, cuándo se hicieron y quién los hizo, especialmente
+cuando se trabaja en equipo.
+
+Git nos da la posibilidad de volver a versiones anteriores del
+proyecto si algo sale mal, lo cual es crucial cuando se cometen
+errores o se necesitan recuperar funcionalidades que funcionaban
+antes. También facilita la colaboración entre desarrolladores,
+ya que cada uno puede trabajar en diferentes partes del proyecto
+sin conflictos, y luego unir los cambios de manera ordenada.
+
+Además, mantener un registro de cambios brinda trazabilidad,
+que es esencial para la calidad del software. Permite auditar
+el proceso de desarrollo, entender la evolución del proyecto y
+tomar decisiones informadas sobre mejoras o correcciones.
+
+En resumen, Git es una herramienta indispensable para cualquier
+proyecto de software que quiera ser profesional, organizado y
+sostenible a largo plazo.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+💡 PUNTOS CLAVE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ✓ Historial completo y organizado del proyecto
+  ✓ Posibilidad de volver a versiones anteriores
+  ✓ Colaboración efectiva en equipo
+  ✓ Trazabilidad del proceso de desarrollo
+  ✓ Calidad y profesionalismo en el software
+
+════════════════════════════════════════════════════════════════
+  Estudiante: Devin Polanco Romero
+  Programa: Programadores Por La Paz
+  Universidad de Cartagena
+  Semana 3 - Abril 2026
+════════════════════════════════════════════════════════════════

@@ -1,8 +1,85 @@
-Repositorio:
-Un repositorio es un espacio donde se guardan los archivos y todos los cambios realizados en un proyecto. Puede estar en tu computador (repositorio local) o en la nube como GitHub (repositorio remoto). El repositorio almacena el historial completo del proyecto, permitiendo saber qué se hizo, cuándo se hizo y quién lo hizo. Es como una carpeta inteligente que no solo guarda archivos, sino también toda la información sobre cómo han evolucionado a lo largo del tiempo.
+╔═══════════════════════════════════════════════════════════════╗
+║           CONCEPTOS BÁSICOS DE GIT                            ║
+║           Programadores Por La Paz                            ║
+║           Semana 3 - Git y Control de Versiones               ║
+╚═══════════════════════════════════════════════════════════════╝
 
-Commit:
-Un commit es un registro de cambios realizado en un momento específico del proyecto. Cuando ejecutas git commit, Git toma una "foto" del estado actual de los archivos que seleccionaste y guarda esa información junto con un mensaje que describe qué se hizo. Cada commit tiene un identificador único (hash) que lo distingue de los demás. Los commits permiten volver a versiones anteriores del proyecto si algo sale mal, y facilitan el trabajo en equipo porque cada persona puede ver los cambios que realizó cada quien.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📁 REPOSITORIO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Push:
-El push es la acción de enviar los cambios desde tu computador o Codespaces hacia GitHub (el repositorio remoto). Cuando ejecutas git push, subes tus commits locales al servidor para que otras personas puedan ver y trabajar con los mismos cambios. Sin el push, los cambios solo existen en tu máquina y no están disponibles para el equipo. Es un paso esencial para mantener el repositorio actualizado y permitir la colaboración en proyectos de software.
+¿Qué es?
+    Un espacio donde se guardan los archivos y todos los cambios
+    realizados en un proyecto.
+
+¿Dónde está?
+    → Repositorio LOCAL: en tu computador
+    → Repositorio REMOTO: en la nube (GitHub, GitLab, etc.)
+
+¿Qué almacena?
+    ✓ Todos los archivos del proyecto
+    ✓ El historial completo de cambios
+    ✓ Información sobre qué se hizo, cuándo y quién lo hizo
+
+Analogía: Es como una carpeta inteligente que no solo guarda
+archivos, sino también toda la información sobre cómo han
+evolucionado a lo largo del tiempo.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+💾 COMMIT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+¿Qué es?
+    Un registro de cambios realizado en un momento específico
+    del proyecto.
+
+¿Cómo funciona?
+    → Ejecutas: git add . → git commit -m "mensaje"
+    → Git toma una "foto" del estado actual de los archivos
+    → Guarda esa información con un mensaje descriptivo
+
+Características:
+    ✓ Cada commit tiene un identificador único (hash)
+    ✓ Permite volver a versiones anteriores si algo sale mal
+    ✓ Facilita el trabajo en equipo
+    ✓ Cada persona puede ver los cambios realizados
+
+Analogía: Es como tomar una foto del proyecto en un momento
+determinado, con una nota de qué cambió.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📤 PUSH
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+¿Qué es?
+    La acción de enviar cambios desde tu computador o Codespaces
+    hacia GitHub (repositorio remoto).
+
+¿Cómo funciona?
+    → Ejecutas: git push
+    → Subes tus commits locales al servidor
+    → Otras personas pueden ver y trabajar con tus cambios
+
+¿Por qué es importante?
+    ✓ Sin el push, los cambios solo existen en tu máquina
+    ✓ Mantiene el repositorio actualizado
+    ✓ Permite la colaboración en proyectos de software
+
+Analogía: Es como publicar un documento en la nube para que
+todos puedan verlo y trabajarlo.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔄 FLUJO BÁSICO DE GIT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+   EDITAR    →    git add .    →    git commit    →    git push
+  archivos        archivos          registrar        enviar a
+  en tu           al área de        cambios          GitHub
+  proyecto        preparación
+
+════════════════════════════════════════════════════════════════
+  Estudiante: Devin Polanco Romero
+  Programa: Programadores Por La Paz
+  Universidad de Cartagena
+  Semana 3 - Abril 2026
+════════════════════════════════════════════════════════════════

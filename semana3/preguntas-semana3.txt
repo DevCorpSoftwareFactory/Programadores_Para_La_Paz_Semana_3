@@ -1,11 +1,63 @@
-Pregunta 1:
-Respuesta: B. Un sistema de control de versiones para registrar cambios en proyectos
+╔═══════════════════════════════════════════════════════════════╗
+║           RESPUESTAS - TAREA SEMANA 3                         ║
+║           Programadores Por La Paz                            ║
+║           Git y Control de Versiones                          ║
+╚═══════════════════════════════════════════════════════════════╝
 
-Pregunta 2:
-Respuesta: B. Registrar y organizar los archivos y cambios de un proyecto
+┌───────────────────────────────────────────────────────────────┐
+│  PREGUNTA 1                                                   │
+│  ¿Qué es Git?                                                │
+├───────────────────────────────────────────────────────────────┤
+│  A. Un sistema operativo                                      │
+│  B. Un sistema de control de versiones para registrar         │
+│     cambios en proyectos                                      │
+│  C. Una red social para programadores                         │
+│  D. Un editor de texto                                        │
+├───────────────────────────────────────────────────────────────┤
+│  ✔ RESPUESTA: B                                               │
+└───────────────────────────────────────────────────────────────┘
 
-Pregunta 3:
-Respuesta: B. Agrega archivos al área de preparación para registrar cambios
+┌───────────────────────────────────────────────────────────────┐
+│  PREGUNTA 2                                                   │
+│  ¿Cuál es la función principal de un repositorio?             │
+├───────────────────────────────────────────────────────────────┤
+│  A. Guardar imágenes                                          │
+│  B. Registrar y organizar los archivos y cambios de un        │
+│     proyecto                                                  │
+│  C. Conectarse a internet                                     │
+│  D. Ejecutar programas                                        │
+├───────────────────────────────────────────────────────────────┤
+│  ✔ RESPUESTA: B                                               │
+└───────────────────────────────────────────────────────────────┘
 
-Pregunta 4:
-Respuesta: A. Guarda un registro de cambios realizados en el proyecto
+┌───────────────────────────────────────────────────────────────┐
+│  PREGUNTA 3                                                   │
+│  ¿Qué hace el comando git add .?                              │
+├───────────────────────────────────────────────────────────────┤
+│  A. Elimina archivos del proyecto                             │
+│  B. Agrega archivos al área de preparación para registrar     │
+│     cambios                                                   │
+│  C. Crea una nueva carpeta                                    │
+│  D. Cierra el repositorio                                     │
+├───────────────────────────────────────────────────────────────┤
+│  ✔ RESPUESTA: B                                               │
+└───────────────────────────────────────────────────────────────┘
+
+┌───────────────────────────────────────────────────────────────┐
+│  PREGUNTA 4                                                   │
+│  ¿Qué hace el comando git commit?                             │
+├───────────────────────────────────────────────────────────────┤
+│  A. Guarda un registro de cambios realizados en el proyecto   │
+│  B. Borra el repositorio                                      │
+│  C. Instala un programa                                       │
+│  D. Abre un archivo                                           │
+├───────────────────────────────────────────────────────────────┤
+│  ✔ RESPUESTA: A                                               │
+└───────────────────────────────────────────────────────────────╝
+
+════════════════════════════════════════════════════════════════
+  Estudiante: Devin Polanco Romero
+  Programa: Programadores Por La Paz
+  Universidad de Cartagena
+  Semana 3 - Abril 2026
+════════════════════════════════════════════════════════════════
