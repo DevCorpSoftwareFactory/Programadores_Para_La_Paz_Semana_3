@@ -1,0 +1,203 @@
+\documentclass[12pt,a4paper]{article}
+
+% Paquetes
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage{array}
+
+% Colores personalizados
+\definecolor{azulgit}{RGB}{24,80,50}
+\definecolor{grisclaro}{RGB}{245,245,245}
+
+% Configuración de hipervínculos
+\hypersetup{
+    colorlinks=true,
+    linkcolor=azulgit,
+    urlcolor=azulgit,
+    citecolor=azulgit
+}
+
+% Encabezado y pie de página
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textcolor{azulgit}{\small Programadores Por La Paz}}
+\fancyhead[R]{\textcolor{azulgit}{\small Semana 3}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+% Títulos
+\titleformat{\section}
+  {\normalfont\Large\bfseries\color{azulgit}}
+  {\thesection}{1em}{}
+\titleformat{\subsection}
+  {\normalfont\large\bfseries\color{azulgit!80!black}}
+  {\thesubsection}{1em}{}
+
+\begin{document}
+
+% Título
+\begin{titlepage}
+    \centering
+    \vspace*{2cm}
+    
+    {\Huge\bfseries\textcolor{azulgit}{DOCUMENTO DE PRESENTACIÓN}\\[0.5cm]}
+    {\Large\textcolor{azulgit!70!black}{Tarea Semana 3}}\\[1cm]
+    
+    \vspace{1cm}
+    
+    {\Large Git y Control de Versiones}\\[2cm]
+    
+    \vspace{2cm}
+    
+    {\large\textbf{Programa:}}\\
+    {\large Programadores Por La Paz}\\[1.5cm]
+    
+    {\large\textbf{Universidad de Cartagena}}\\[2cm]
+    
+    \vfill
+    
+    {\large\textbf{Estudiante:}}\\
+    {\Large Devin Polanco Romero}\\[1cm]
+    
+    {\large Junio 2026}
+    
+\end{titlepage}
+
+% Índice
+\tableofcontents
+\newpage
+
+% Contenido principal
+\section{Información General}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|>{\bfseries}l|l|}
+\hline
+\textbf{Campo} & \textbf{Detalle} \\
+\hline
+Estudiante & Devin Polanco Romero \\
+\hline
+Programa & Programadores Por La Paz \\
+\hline
+Institución & Universidad de Cartagena \\
+\hline
+Actividad & Tarea Semana 3 \\
+\hline
+Tema & Git y Control de Versiones \\
+\hline
+Fecha & Junio 2026 \\
+\hline
+\end{tabular}
+\caption{Información de la actividad}
+\end{table}
+
+\section{Enlace del Repositorio}
+
+El desarrollo de la actividad fue publicado en el siguiente repositorio de GitHub:
+
+\vspace{0.5cm}
+
+\begin{center}
+\large
+\url{https://github.com/DevCorpSoftwareFactory/Programadores_Para_La_Paz_Semana_3}
+\end{center}
+
+\vspace{0.5cm}
+
+\noindent La carpeta \texttt{semana3} contiene todos los archivos solicitados para la entrega de la actividad.
+
+\section{Objetivo de la Semana}
+
+Comprender los conceptos básicos de \textbf{Git} y \textbf{control de versiones}, aprender a registrar cambios en un proyecto, entender la importancia de la \textbf{trazabilidad} en el desarrollo de software y continuar utilizando el repositorio como espacio de trabajo y entrega.
+
+\section{Desarrollo de la Actividad}
+
+\subsection{Preguntas de Selección Múltiple}
+
+Se respondieron cuatro preguntas sobre conceptos fundamentales de Git:
+
+\begin{enumerate}[label=\textbf{\arabic*.}]
+    \item \textbf{¿Qué es Git?} \\
+    Respuesta: Un sistema de control de versiones para registrar cambios en proyectos.
+    
+    \item \textbf{¿Cuál es la función principal de un repositorio?} \\
+    Respuesta: Registrar y organizar los archivos y cambios de un proyecto.
+    
+    \item \textbf{¿Qué hace el comando \texttt{git add .}?} \\
+    Respuesta: Agrega archivos al área de preparación para registrar cambios.
+    
+    \item \textbf{¿Qué hace el comando \texttt{git commit}?} \\
+    Respuesta: Guarda un registro de cambios realizados en el proyecto.
+\end{enumerate}
+
+\subsection{Conceptos Básicos de Git}
+
+Se explicaron los siguientes conceptos fundamentales:
+
+\begin{description}
+    \item[Repositorio] Espacio donde se guardan los archivos y todos los cambios realizados en un proyecto. Puede ser local (en la computador) o remoto (en la nube como GitHub).
+    
+    \item[Commit] Registro de cambios realizado en un momento específico del proyecto. Cada commit tiene un identificador único y permite volver a versiones anteriores.
+    
+    \item[Push] Acción de enviar los cambios desde la máquina local hacia GitHub, permitiendo la colaboración y el trabajo en equipo.
+\end{description}
+
+\subsection{Reflexión}
+
+Se desarrolló una reflexión de 8 a 10 líneas sobre la importancia de mantener un registro de cambios en proyectos de software usando herramientas como Git, destacando:
+
+\begin{itemize}
+    \item La necesidad de tener un historial completo y organizado
+    \item La posibilidad de volver a versiones anteriores
+    \item La facilitación del trabajo colaborativo en equipo
+    \item La importancia de la trazabilidad en el desarrollo de software
+\end{itemize}
+
+\section{Archivos Entregados}
+
+La carpeta \texttt{semana3} contiene los siguientes archivos:
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Archivo} & \textbf{Contenido} \\
+\hline
+preguntas-semana3.txt & Respuestas de selección múltiple \\
+\hline
+conceptos-git.txt & Explicación de repositorio, commit y push \\
+\hline
+reflexion-semana3.txt & Reflexión sobre la importancia de Git \\
+\hline
+\end{tabular}
+\caption{Archivos de la actividad}
+\end{table}
+
+\section{Conclusiones}
+
+\begin{itemize}
+    \item Se comprenderon los conceptos básicos de Git y su importancia en el desarrollo de software.
+    \item Se practicó el uso de comandos fundamentales como \texttt{git add}, \texttt{git commit} y \texttt{git push}.
+    \item Se reconoció la trazabilidad como un elemento esencial para la calidad y organización de proyectos de software.
+    \item Se fortaleció el uso de GitHub como herramienta de publicación y seguimiento del avance técnico.
+\end{itemize}
+
+\section{Referencias}
+
+\begin{itemize}
+    \item Documentación oficial de Git: \url{https://git-scm.com/doc}
+    \item Documentación de GitHub: \url{https://docs.github.com}
+    \item Libro Pro Git: \url{https://git-scm.com/book/es/v2}
+\end{itemize}
+
+\end{document}
