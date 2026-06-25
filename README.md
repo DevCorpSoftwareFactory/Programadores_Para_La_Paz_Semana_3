@@ -67,7 +67,7 @@ Universidad de Cartagena
 
 ## 📅 Fecha de Entrega
 
-Semana 3 - Abril 2026
+Semana 3 - Junio 2026
 
 ---
 
